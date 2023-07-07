@@ -3,11 +3,30 @@
     padding: 0;
 }
 
+/* this is navbar section  */
+
 .menu-container {
     background-color: rgb(32, 31, 31);
     padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menus {
+    display: flex;
 }
 
 .logo-photo {
     width: 120px;
+}
+
+.item {
+    margin: 10px;
+    padding: 7px;
+    font-size: 18px;
+
+
 }
